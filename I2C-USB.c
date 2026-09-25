@@ -117,6 +117,6 @@ int main()
         // Note this is chip temperature.
         printf("Temp. = %f\n", (temp / 340.0) + 36.53);
 
-        sleep_ms(100);
+        sleep_ms(1000);
     }
 }
